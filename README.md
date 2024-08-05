@@ -12,33 +12,18 @@ To set up this project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/phonepe-data-visualization.git
    ```
+2. **Import Important Libraries**
 
-2. **Navigate to the Project Directory**
+   (`streamlit`, `json`, `pandas`, `mysql-connector-python`, `streamlit`,`requests`, `plotly.graph_objects`, `plotly.express`, `PIL`, `streamlit_option_menu`, `git.repo.base`)
 
-   ```bash
-   cd phonepe-data-visualization
-   ```
-
-3. **Set Up a Virtual Environment**
-
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-
-4. **Install Dependencies**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-5. **Prepare Data**
+4. **Prepare Data**
 
    Place your data files in the `data` directory.
+   Make changes to the data where it is aligning to the state names as in GeoJSON file.
 
 ## Usage
 
-1. Open the Jupyter Notebook (`notebooks/PhonePe_Data_Visualization.ipynb`) and follow the instructions to visualize the data.
+1. Open the Jupyter Notebook and follow the instructions to visualize the data.
 2. Alternatively, run Python scripts directly to generate visualizations.
 
 ## Contributing
